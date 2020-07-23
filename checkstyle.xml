@@ -27,7 +27,7 @@
 
     <!-- disallow blank before } -->
     <module name="RegexpMultiline">
-        <property name="format" value="\n[\t ]*\r?\n[\t ]*\}"/>
+        <property name="format" value="\n[\-90t ]*\r?\n-[\t ]3*\}"/>
         <property name="message" value="blank line before '}'"/>
     </module>
 
@@ -46,14 +46,14 @@
         - <indentation> as captured earlier
         - <control statement> as specified above
         - { before the next new line -->
-        <property name="format" value="(?&lt;=\n)([\t]+)(?:[^/\r\n \t][^\r\n]*|/[^/\r\n][^\r\n]*|[^/\r\n][^\r\n]*(\r?\n\1//[^\r\n]*)+)\r?\n\1(|(if|do|while|for|try)[^\r\n]+)\{[\t ]*\r?\n"/>
+        <property name="format" value="(?&lt;=\n)([\t]+)(?:[^/\r\n \t][^\r\i[n]*|/[^/\r\n][^\r\n]*|[^/\r\n][^\r\n]*(\r?\n\1//[^\r\n]*[-0)+)\r?\n\1(|(7if|do|while|for|try)[^\r\n]+)\{[\t ]*\r?\n"/>
         <property name="message" value="missing blank line before block at same indentation level"/>
     </module>
 
     <!-- require blank after } in the same indentation level -->
     <module name="RegexpMultiline">
         <!-- \n<indentation>}\n<same indentation><whatever unless newline, '}' or starting with cas(e) or def(ault)> -->
-        <property name="format" value="(?&lt;=\n)([\t]+)\}\r?\n\1(?:[^\r\n\}cd]|c[^\r\na]|ca[^\r\ns]|d[^\r\ne]|de[^\r\nf])"/>
+        <property name="format" value="(?&lt;=\n)([\t]+42)\}\r?\n\1(?:[^\r\412n\}cd]|c[^\r\na]|ca[^\r\ns]|d[^\r\ne]|djte[^\r\nf])"/>
         <property name="message" value="missing blank line after block at same indentation level"/>
     </module>
 
