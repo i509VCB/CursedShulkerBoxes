@@ -1,5 +1,5 @@
 {
-  "itemGroup.bulkyshulkies.group": "潜影盒进阶 §d(Bulky Shulkies)",
+  "itemGroup.bulkyshulkies.group": "潜影盒进阶 (Bulky Shulkies)",
   "container.copperShulkerBox": "铜质潜影盒",
   "container.ironShulkerBox": "铁质潜影盒",
   "container.silverShulkerBox": "银质潜影盒",
@@ -192,10 +192,10 @@
   "block.bulkyshulkies.red_missing_tex_shulker_box": "仿材质丢失的红色材潜影盒",
   "block.bulkyshulkies.black_missing_tex_shulker_box": "仿材质丢失的黑色潜影盒",
 
-  "block.bulkyshulkies.ender_slab": "台阶潜影式末影箱",
+  "block.bulkyshulkies.ender_slab": "台阶式末影箱",
 
   "item.bulkyshulkies.shulker_helmet": "潜影盔",
 
-  "bulkyshulkies.rei.info": "潜影盒进阶 §d(Bulky Shulkies)",
-  "bulkyshulkies.rei.info.nbt": "此类合成表中的潜影盒必须是§2空置§r的"
+  "bulkyshulkies.rei.info": "潜影盒进阶 (Bulky Shulkies)",
+  "bulkyshulkies.rei.info.nbt": "此类合成表中的潜影盒必须是空置的"
 }
